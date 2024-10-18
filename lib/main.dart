@@ -1,6 +1,7 @@
 import 'package:arid_student/asset_image_demo.dart';
 import 'package:arid_student/list_tile_demo.dart';
 import 'package:arid_student/login.dart';
+import 'package:arid_student/single_seletion_demo.dart';
 import 'package:flutter/material.dart';
 
 import 'image_demo.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LoginView()
+      home: SingleSeletionDemo()
     );
   }
 }
