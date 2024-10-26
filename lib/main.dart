@@ -1,4 +1,5 @@
 import 'package:arid_student/asset_image_demo.dart';
+import 'package:arid_student/grid_view_demo.dart';
 import 'package:arid_student/list_tile_demo.dart';
 import 'package:arid_student/login.dart';
 import 'package:arid_student/page_view.dart';
@@ -16,8 +17,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: PageViewDemo()
+    return const MaterialApp(
+      home: GridViewDemo()
     );
   }
 }
