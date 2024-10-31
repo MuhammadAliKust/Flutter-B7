@@ -1,5 +1,6 @@
 import 'package:arid_student/asset_image_demo.dart';
 import 'package:arid_student/bottom_bar_view.dart';
+import 'package:arid_student/dialog_box_view.dart';
 import 'package:arid_student/grid_view_demo.dart';
 import 'package:arid_student/list_tile_demo.dart';
 import 'package:arid_student/login.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
-      home: TabbarViewDemo()
+      home: DialogBoxView()
     );
   }
 }

@@ -9,23 +9,26 @@ class TabbarViewDemo extends StatelessWidget {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          title: Text("Tab Bar"),
-          bottom: TabBar(tabs: [
+          title: const Text("Tab Bar"),
+          bottom: const TabBar(tabs: [
             Text("Home"),
             Text("Favorite"),
             Text("Person"),
           ]),
         ),
-        body: TabBarView(children: [
-          Center(child:Text(
+        body: const TabBarView(children: [
+          Center(
+              child: Text(
             "Home",
             style: TextStyle(fontSize: 30),
           )),
-          Center(child:Text(
+          Center(
+              child: Text(
             "Favorite",
             style: TextStyle(fontSize: 30),
           )),
-          Center(child:Text(
+          Center(
+              child: Text(
             "Profile",
             style: TextStyle(fontSize: 30),
           )),
