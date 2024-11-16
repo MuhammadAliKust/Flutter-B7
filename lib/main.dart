@@ -8,6 +8,7 @@ import 'package:arid_student/login.dart';
 import 'package:arid_student/page_view.dart';
 import 'package:arid_student/providers/name.dart';
 import 'package:arid_student/screen_a.dart';
+import 'package:arid_student/search_view.dart';
 import 'package:arid_student/single_seletion_demo.dart';
 import 'package:arid_student/tabbar_view.dart';
 import 'package:flutter/material.dart';
@@ -26,6 +27,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: GoogleMapsView());
+    return MaterialApp(home: SearchView());
   }
 }
